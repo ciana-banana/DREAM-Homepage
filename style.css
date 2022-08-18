@@ -11,14 +11,41 @@
     display: flex;
     justify-content: space-between;
     padding: 1rem 3rem;
+    align-items: center;
 }
 
 #navbar_logo {
     background-color: #ff8177;
-    background-image: linear-gradient(to top, #00FFFF 0%, #00008B 100%);
+    background-image: linear-gradient(to bottom, #00FFFF 0%, #00008B 100%);
     font-size: 2rem;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
+    cursor: pointer;
+}
+
+.navbar_link_container {
+    size: 1rem;
+    
+}
+
+.navbar_links {
+    
+    padding: 1rem;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.navbar_links .button {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+
+.button {
+    font-size: 1.5rem;
+    
 }
