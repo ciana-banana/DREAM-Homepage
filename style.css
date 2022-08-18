@@ -22,19 +22,16 @@
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
-    cursor: pointer;
 }
 
 
 .navbar_links .button {
     font-size: 1.5rem;
-    cursor: pointer;
     color: #fff;
 }
 
 .navbar_links {
     font-size: 1.5rem;
-    cursor: pointer;
     color: #fff;
     padding: 1rem;
     text-decoration: none;
@@ -44,7 +41,6 @@
 
 .button {
     font-size: 1.5rem;
-    cursor: pointer;
     color: #fff;
     
 }
