@@ -25,27 +25,26 @@
     cursor: pointer;
 }
 
-.navbar_link_container {
-    size: 1rem;
-    
+
+.navbar_links .button {
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #fff;
 }
 
 .navbar_links {
-    
-    padding: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
     color: #fff;
+    padding: 1rem;
     text-decoration: none;
     cursor: pointer;
 
 }
 
-.navbar_links .button {
-    font-size: 1.5rem;
-    cursor: pointer;
-}
-
-
 .button {
     font-size: 1.5rem;
+    cursor: pointer;
+    color: #fff;
     
 }
