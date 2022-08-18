@@ -1,6 +1,24 @@
+* {
+    font-family: 'Kumbh sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 .navbar {
     background-color: #131313;
     height: 80px;
     display: flex;
     justify-content: space-between;
+    padding: 1rem 3rem;
+}
+
+#navbar_logo {
+    background-color: #ff8177;
+    background-image: linear-gradient(#e66465, #9198e5);
+    font-size: 2rem;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
 }
