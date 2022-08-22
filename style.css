@@ -47,6 +47,17 @@
     border-radius: 15px;
 }
 
-@media only screen and (max-width: 600px) {
-    
+/* to finish resposive menu */
+
+@media screen and (max-width: 960px) {
+    .navbar_link_container {
+        display: flex;
+        justify-content: space-between;
+        height: 80px;
+        z-index: 1;
+        width: 100%;
+        max-width: 1300px;
+        padding: 0;
+    }
+
 }
