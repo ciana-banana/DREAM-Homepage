@@ -46,3 +46,7 @@
     padding: 1rem;
     border-radius: 15px;
 }
+
+@media only screen and (max-width: 600px) {
+    
+}
