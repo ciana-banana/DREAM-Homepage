@@ -55,6 +55,15 @@
     background: #347aeb;
     color: #fff;
 }
+.main {
+    background-color: #131313;
+}
+
+.main_container {
+    display: grid;
+
+}
+
 
 /* to finish resposive menu */
 
