@@ -83,13 +83,31 @@
     grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-self: center;
-    margin: 0 auto;
-    height: 90vh;
+    margin: 0 auto;   
     background-color: #141414;
     z-index: 1;
     width: 100%;
     max-width: 1300px;
-    padding: 0 50px;
+    padding: 50px 50px;
 }
 
+.main_content h1{
+    font-size: 4rem;
+    background-color: #ff8177;
+    background-image: linear-gradient(to bottom, #00FFFF 0%, #00008B 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.main_content h2{
+    font-size: 4rem;
+    background-color: #ff8177;
+    background-image: linear-gradient(to bottom, #8233C5 0%, #E963FD 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
 
