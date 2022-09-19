@@ -122,14 +122,40 @@
     font-size: 1rem;
     margin-top: 2rem;
     padding: 14px 32px;
+    background: #f77062;
     background-image: linear-gradient(to bottom, #00FFFF 0%, #00008B 100%);
     color: #fff;
     border: none;
     outline: none;
     border-radius: 0.4rem;
+    transition: all 0.35s;
+    position: relative;
 }
 
 .main_button a {
-    text-decoration: none;
+    position: relative;
+    z-index: 2;
     color: #fff;
+    text-decoration: none;
 }
+
+.main_button:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #8233C5;
+    transition: all 0.35s;
+    border-radius: 4px;
+}
+
+.main_button:hover {
+    color: #fff
+}
+
+.main_button:hover:after {
+    width: 100%;
+}
+
