@@ -122,7 +122,6 @@
     font-size: 1rem;
     margin-top: 2rem;
     padding: 14px 32px;
-    background: #f77062;
     background-image: linear-gradient(to bottom, #00FFFF 0%, #00008B 100%);
     color: #fff;
     border: none;
@@ -151,9 +150,6 @@
     border-radius: 4px;
 }
 
-.main_button:hover {
-    color: #fff
-}
 
 .main_button:hover:after {
     width: 100%;
