@@ -4,9 +4,12 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    background-color: #131313;
+}
+
 /*Navbar*/
-
-
 .navbar {
     background-color: #131313;
     height: 80px;
@@ -20,7 +23,6 @@
 }
 
 #navbar_logo {
-    background-color: #ff8177;
     background-image: linear-gradient(to bottom, #00FFFF 0%, #00008B 100%);
     font-size: 2rem;
     -webkit-background-clip: text;
@@ -79,9 +81,7 @@
 
 
 /*main section css */
-.main {
-    background-color: #131313;
-}
+
 
 .main_container {
     display: grid;
@@ -89,7 +89,6 @@
     align-items: center;
     justify-self: center;
     margin: 0 auto;   
-    background-color: #131313;
     z-index: 1;
     width: 100%;
     max-width: 1300px;
@@ -98,7 +97,6 @@
 
 .main_content h1{
     font-size: 4rem;
-    background-color: #ff8177;
     background-image: linear-gradient(to bottom, #00FFFF 0%, #00008B 100%);
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -108,7 +106,6 @@
 
 .main_content h2{
     font-size: 4rem;
-    background-color: #ff8177;
     background-image: linear-gradient(to bottom, #8233C5 0%, #E963FD 100%);
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -162,7 +159,7 @@
 
 /*Services*/
 .services {
-    background-color: #131313;
+
     display: flex;
     flex-direction: column;
     align-items: center;
