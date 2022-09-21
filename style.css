@@ -4,6 +4,8 @@
     margin: 0;
     padding: 0;
 }
+/*Navbar*/
+
 
 .navbar {
     background-color: #131313;
@@ -12,6 +14,9 @@
     justify-content: space-between;
     padding: 1rem 3rem;
     align-items: center;
+    z-index: 10000;
+    position: fixed;
+    width: 100%;
 }
 
 #navbar_logo {
@@ -191,8 +196,8 @@
 .services h1 {
     background-image: linear-gradient(to left, #00FFFF 0%, #00008B 100%);
     background-size: 100%;
-    padding-bottom: 15rem;
-    padding-top: 15rem;
+    margin-bottom: 20rem;
+    margin-top: 15rem;
     font-size: 2.5rem;
     -webkit-background-clip: text;
     -moz-background-clip: text;
