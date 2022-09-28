@@ -174,7 +174,7 @@ body {
 
 
 .service {
-    margin: 1rem;
+    margin: 1rem 5rem;
     border-radius: 4px;
     height: 500px;
     width: 400px;
@@ -199,6 +199,11 @@ body {
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
+}
+
+.service:hover {
+    transform: scale(1.1);
+    transition: all .2s ease-in-out ;
 }
 
 .service h2 {
