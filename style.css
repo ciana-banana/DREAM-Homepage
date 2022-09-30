@@ -237,6 +237,7 @@ body {
     margin: 35rem 5rem;
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
 .footer_info {
@@ -257,4 +258,16 @@ body {
 .footer_element a {
     color: #fff;
     padding-top: 0.8rem;
+}
+
+.footer_social {
+    max-width: 1000%;
+    width: 100px;
+}
+
+
+
+#footer_logo {
+    color: #fff;
+    font-size: 2rem;
 }
