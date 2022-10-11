@@ -14,19 +14,24 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Montserrat:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet"/>
+    <script src="/app.js"></script>
   </head>
   <body>
     <!-- navbar section -->
     <nav class="navbar">
       <a href="/" id="navbar_logo"><i class="fa-solid fa-robot"></i> DREAM</a>
-      <div class="navbar_link_container">
-        <a href="/" class="navbar_links">Home</a>
-        <a href="/" class="navbar_links">Tech</a>
-        <a href="/" class="navbar_links">Products</a>
-        <a href="/" class="button">Sign up</a>
+      <div class="navbar__toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
       </div>
+      <ul class="navbar_link_container">
+        <li class="navbar_item"> <a href="/" class="navbar_links">Home</a></li>
+        <li class="navbar_item"><a href="/" class="navbar_links">Tech</a></li>
+        <li class="navbar_item"><a href="/" class="navbar_links">Products</a></li>
+        <li class="navbar_item"><a href="/" class="button">Sign up</a></li>
+      </ul>
     </nav>
 
     <!-- main section -->
@@ -101,7 +106,8 @@
         <div class="footer_logo_container">
           <div class="footer_logo">
             <a href="/" id="footer_logo"
-              ><i class="fa-solid fa-robot"></i> DREAM</a>
+              ><i class="fa-solid fa-robot"></i> DREAM</a
+            >
           </div>
           <p class="footer_rights">DREAM 2020. All rights reserved.</p>
           <div class="footer_icons">
