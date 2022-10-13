@@ -21,6 +21,11 @@ body {
     position: fixed;
     width: 100%;
 }
+.navbar_link_container{display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+}
 
 #navbar_logo {
     background-image: linear-gradient(to bottom, #00FFFF 0%, #00008B 100%);
@@ -63,21 +68,6 @@ body {
     color: #fff;
 }
 
-
-
-/* to finish resposive menu */
-
-@media screen and (max-width: 960px) {
-    .navbar_link_container {
-        display: flex;
-        justify-content: space-between;
-        height: 80px;
-        z-index: 1;
-        width: 100%;
-        max-width: 1300px;
-        padding: 0;
-    }
-}
 
 
 /*main section css */
@@ -327,7 +317,6 @@ body {
         display: grid;
         grid-template-columns: auto;
         margin: 0;
-        width: 100%;
         position: absolute;
         top: -1000px;
         opacity: 0; 
