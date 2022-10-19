@@ -67,7 +67,7 @@ body {
     background: #347aeb;
     color: #fff;
 }
-
+/*responsive navbar menu */
 @media screen and (max-width: 960px) {
     .navbar {
         display: flex;
