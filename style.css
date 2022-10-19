@@ -37,9 +37,14 @@ body {
 }
 
 
-.navbar_links .button {
+.navbar_btn{
     font-size: 1.5rem;
     color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    width: 100%;
 }
 
 .navbar_links {
@@ -70,6 +75,9 @@ body {
 
 /*responsive navbar menu */
 @media screen and (max-width: 960px) {
+    .button {
+        width: 100%;
+    }
     .navbar {
         display: flex;
         justify-content: space-between;
