@@ -209,7 +209,7 @@ body {
 
 .main_button a {
     position: relative;
-    z-index: 2;
+    z-index: 0;
     color: #fff;
     text-decoration: none;
 }
