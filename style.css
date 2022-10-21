@@ -242,7 +242,7 @@ body {
 }
 
 /*responsive main section */
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 360px) {
     .main_container {
         display: grid;
         grid-template-columns: auto;
